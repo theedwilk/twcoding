@@ -1,0 +1,1 @@
+var myLink = "https://go.hotmart.com/J76525922V?ap=0672";

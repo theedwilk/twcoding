@@ -1,0 +1,1 @@
+var linkIngles = "https://go.hotmart.com/R80665579I?ap=25bf";
