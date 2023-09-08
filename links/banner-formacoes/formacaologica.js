@@ -1,0 +1,1 @@
+var formacaologica = "https://dio.me/curso-logica-programacao/AFVEWX42QI7O"

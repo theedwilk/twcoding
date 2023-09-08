@@ -1,1 +1,0 @@
-var myLink2 = "https://go.hotmart.com/S79255989J?ap=9eb7"
