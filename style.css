@@ -129,11 +129,8 @@ ul li a:hover{
   border: 1.5px solid var(--text-color);
 }
 
+/* Estilos para o primeiro submenu */
 .sub-menu {
-  display: none;
-}
-
-.sub-menu2 {
   display: none;
 }
 
@@ -163,6 +160,44 @@ ul li a:hover{
   border-radius: 8px;
   backdrop-filter: blur(4px);
   /*para funcionar no navegador safari*/
+  -webkit-backdrop-filter: blur(4px);
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.2;
+  text-align: center;
+}
+
+/* Estilos para o segundo submenu */
+.sub-menu2 {
+  display: none;
+  /*position: relative;*/
+}
+
+.icon-open2 {
+  font-size: 25px;
+  background-repeat: no-repeat;
+  background-position: calc(100% - 5px) center;
+  padding-right: 45px;
+}
+
+.icon-close2 {
+  font-size: 25px;
+  background-repeat: no-repeat;
+  background-position: calc(100% - 5px) center;
+  padding-right: 45px;
+}
+
+.hidden2 {
+  display: none;
+}
+
+.sub-menu2.show {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 16px;
+  border-radius: 8px;
+  backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   text-decoration: none;
   font-weight: 500;

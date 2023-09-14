@@ -1,0 +1,1 @@
+var formacaosql = "https://dio.me/curso-sql/AFVEWX42QI7O"
